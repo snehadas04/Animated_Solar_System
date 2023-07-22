@@ -49,3 +49,13 @@ body{
     height: 8em;
     animation: orbit 2.7s linear infinite;
 }
+
+.earth::before, .moon::before{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+}
+
+.earth::before{
+    
+}
