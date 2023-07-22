@@ -25,3 +25,11 @@ body{
     border-radius: 50%;
     box-shadow: 0 0 3em white;
 }
+
+.moon, .earth{
+    position: absolute;
+    border-style: solid;
+    border-color: white transparent transparent;
+    border-width: 0.1em 0.1em 0 0;
+    border-radius: 50%;
+}
